@@ -1,1 +1,1 @@
-![Preview] (images/form1.png)
+![Preview](images/form1.png)
