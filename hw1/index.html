@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Homework 1</title>
+</head>
+<body>
+    <!-- <div class="form1">
+        <h1>Sign Up</h1>
+        <div class="inline_data">
+            <input type="text" placeholder="First Name" id="first_name" >
+            <input type="text" placeholder="Last Name" id="last_name" >
+        </div>
+        <input type="text" placeholder="Mobile Number" id="mobile_number" >
+        <input type="text" placeholder="Email Address" id="email_add" >
+        <div class="inline_data">
+            <input type="password" placeholder="Password" id="password" >
+            <input type="password" placeholder="Confirm Password" id="password_conf" >
+        </div>
+        <div class="inline_data">
+            <input type="checkbox">
+            <label for="terms"><b>I agree</b></label>
+            <p>By clicking register, you agree to the terms and conditions Set out by this
+                site, including our cookie use. </p>
+            </p>
+        </div>
+        <div class="inline_data">
+            <button>Register</button>
+            <button>Sign In</button>
+        </div>
+    </div> -->
+
+    <div class="form-container">
+        <form id="signup-form">
+            <h1>Sign Up</h1>
+            
+            <div class="form-row">
+                <div class="form-field">
+                    <input type="text" id="first_name" placeholder="First Name" name="first_name" required>
+                </div>
+                <div class="form-field">
+                    <input type="text" id="last_name" placeholder="Last Name" name="last_name" required>
+                </div>
+            </div>
+            
+            <div class="form-field-full">
+                <input type="tel" id="mobile_number" placeholder="Mobile No." name="mobile_number" required>
+            </div>
+            
+            <div class="form-field-full">
+                <input type="email" id="email_add" placeholder="Email Address" name="email_add" required>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-field">
+                    <input type="password" id="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="form-field">
+                    <input type="password" id="password_conf" placeholder="Confirm Password" name="password_conf" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms"><b>I agree</b></label>
+                <div class="form-field">
+                    <p>By clicking <span class="b-highlight">Register</span>, you agree to the <span class="t-highlight">Terms and Conditions</span> set out by 
+                        the site, including our Cookie use.</p>
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button type="submit" id="register-btn">Register</button>
+                <button type="button" id="signin-btn">Sign In</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
